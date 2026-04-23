@@ -3,7 +3,7 @@ const cors = require("cors");
 const mysql = require("mysql2/promise");
 
 const app = express();
-const PORT = process.env.PORT || 8080;
+const PORT = process.env.PORT || 3001;
 
 const {
   DB_HOST = "10.0.146.212", // acá colocar la IP Privada EC2 DB
